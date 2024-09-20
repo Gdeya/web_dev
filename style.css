@@ -1,23 +1,20 @@
-/* Основные стили для всех страниц */
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(240, 240, 240); /* Цвет фона по желанию */
+    background-color: rgb(240, 240, 240); 
     margin: 0;
     padding: 0;
 }
 
-/* Стили для шапки и подвала */
 header, footer {
     text-align: center;
     padding: 10px;
-    background-color: rgb(247, 164, 68); /* Цвет фона для шапки и подвала */
+    background-color: rgb(247, 164, 68); 
     font-size: 12px;
     color: rgb(30, 30, 30);
 }
 
-/* Меню сайта */
 nav ul {
-    list-style-type: none; /* Убираем маркеры списка */
+    list-style-type: none;
     padding: 0; 
 }
 
@@ -28,44 +25,40 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(30, 30, 200); /* Цвет текста ссылок */
-    font-size: 16px; /* Размер шрифта ссылок */
-    font-weight: bold; /* Жирное начертание шрифта */
+    color: rgb(30, 30, 200);
+    font-size: 16px;
+    font-weight: bold; 
     padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    background-color: rgb(247, 164, 68); /* Цвет фона при наведении */
-    color: white; /* Цвет текста при наведении */
+    background-color: rgb(247, 164, 68); 
+    color: white; 
 }
 
-/* Стили для страницы "Товар каталога" */
 h2, h3 {
-    color: black; /* Цвет текста заголовков */
-    font-size: 18px; /* Размер шрифта заголовков */
-    font-weight: 400; /* Насыщенность шрифта заголовков */
+    color: black; 
+    font-size: 18px;
+    font-weight: 400; 
 }
 
-/* Стиль для краткого описания товара */
 section p {
-    color: rgb(60, 60, 60); /* Цвет текста описания товара */
-    font-size: 14px; /* Размер шрифта описания товара */
-    font-style: italic; /* Курсивное начертание */
-    line-height: 16px; /* Высота строки */
+    color: rgb(60, 60, 60);
+    font-size: 14px; 
+    font-style: italic; 
+    line-height: 16px; 
 }
 
-/* Стиль для подробного описания товара */
 section p.description {
-    color: rgb(100, 100, 100); /* Цвет текста подробного описания */
-    font-size: 16px; /* Размер шрифта */
-    font-weight: 400; /* Насыщенность шрифта */
-    line-height: 24px; /* Высота строки */
-    text-align: left; /* Выравнивание по левому краю */
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
-/* Стили для списка характеристик товара */
 section ul.characteristics {
-    list-style-image: url(''); /* Произвольное изображение маркера */
+    list-style-image: url('');
     padding-left: 20px;
 }
 
