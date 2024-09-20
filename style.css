@@ -1,0 +1,76 @@
+/* Основные стили для всех страниц */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 240); /* Цвет фона по желанию */
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для шапки и подвала */
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(247, 164, 68); /* Цвет фона для шапки и подвала */
+    font-size: 12px;
+    color: rgb(30, 30, 30);
+}
+
+/* Меню сайта */
+nav ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(30, 30, 200); /* Цвет текста ссылок */
+    font-size: 16px; /* Размер шрифта ссылок */
+    font-weight: bold; /* Жирное начертание шрифта */
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(247, 164, 68); /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+
+/* Стили для страницы "Товар каталога" */
+h2, h3 {
+    color: black; /* Цвет текста заголовков */
+    font-size: 18px; /* Размер шрифта заголовков */
+    font-weight: 400; /* Насыщенность шрифта заголовков */
+}
+
+/* Стиль для краткого описания товара */
+section p {
+    color: rgb(60, 60, 60); /* Цвет текста описания товара */
+    font-size: 14px; /* Размер шрифта описания товара */
+    font-style: italic; /* Курсивное начертание */
+    line-height: 16px; /* Высота строки */
+}
+
+/* Стиль для подробного описания товара */
+section p.description {
+    color: rgb(100, 100, 100); /* Цвет текста подробного описания */
+    font-size: 16px; /* Размер шрифта */
+    font-weight: 400; /* Насыщенность шрифта */
+    line-height: 24px; /* Высота строки */
+    text-align: left; /* Выравнивание по левому краю */
+}
+
+/* Стили для списка характеристик товара */
+section ul.characteristics {
+    list-style-image: url(''); /* Произвольное изображение маркера */
+    padding-left: 20px;
+}
+
+section ul.characteristics li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+}
